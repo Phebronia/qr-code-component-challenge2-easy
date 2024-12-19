@@ -1,0 +1,42 @@
+body{
+    font-family: outfit;
+    background-color: hsl(212, 45%, 89%);
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 98vh;
+}
+.contain .qr{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    width: 220px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.contain .qr img{
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.contain .qr .improve{
+    position: absolute;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+    font-weight: 700;
+    bottom: 80px;
+    margin: 0 20px;
+    text-align: center;
+}
+.contain .qr .scan{
+    position: absolute;
+    color: hsl(216, 15%, 48%);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    bottom: 20px;
+    margin: 0 15px;
+}
